@@ -177,13 +177,13 @@ const Projects = () => {
                 </ul>
               </div>
 
-              <div className="p-8 pt-0 flex gap-4 mt-auto flex-shrink-0">
+              <div className="p-8 pt-0 flex gap-4 mt-auto flex-shrink-0 relative z-10">
                 {project.github && (
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="max-w-fit inline-flex items-center px-4 py-2 text-sm font-medium bg-primary/15 text-primary/90 rounded-lg hover:bg-primary/25 transition-all duration-300 hover:scale-105 flex-1 justify-center group/link border border-primary/30"
+                    className="max-w-fit inline-flex items-center px-4 py-2 text-sm font-medium bg-primary/15 text-primary/90 rounded-lg hover:bg-primary/25 transition-all duration-300 hover:scale-105 flex-1 justify-center group/link border border-primary/30 cursor-pointer"
                   >
                     <svg
                       className="w-4 h-4 mr-2 group-hover/link:scale-110 transition-transform"
@@ -200,7 +200,7 @@ const Projects = () => {
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="max-w-fit inline-flex items-center px-4 py-2 text-sm font-medium bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105 flex-1 justify-center group/link shadow-lg shadow-primary/30"
+                    className="max-w-fit inline-flex items-center px-4 py-2 text-sm font-medium bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105 flex-1 justify-center group/link shadow-lg shadow-primary/30 cursor-pointer"
                   >
                     <svg
                       className="w-4 h-4 mr-2 group-hover/link:scale-110 transition-transform"
