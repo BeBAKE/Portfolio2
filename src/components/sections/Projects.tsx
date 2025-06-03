@@ -9,7 +9,7 @@ const projects = [
     description: 'A dynamic blogging platform with real-time autosave functionality and serverless backend.',
     technologies: ['ReactJS', 'Express', 'PostgreSQL', 'Prisma', 'Cloudflare Worker'],
     github: 'https://github.com/BeBAKE/BlogIt',
-    live: 'https://blogit.projectlive.me/',
+    live: 'https://blogit.projectlive.tech/',
     image: blogitImage,
     features: [
       'Built a scalable serverless backend with Hono framework (TypeScript)',
@@ -24,7 +24,7 @@ const projects = [
     description: 'A full-stack e-commerce web application for furniture shopping with user authentication, shopping cart, and order management.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Recoil', 'JWT'],
     github: 'https://github.com/BeBAKE/shopping-app',
-    live: 'https://luxyfurniture.projectlive.me',
+    live: 'https://luxyfurniture.projectlive.tech',
     image: luxyFurnitureImage,
     features: [
       'User authentication with JWT',
